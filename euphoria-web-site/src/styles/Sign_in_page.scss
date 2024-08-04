@@ -1,0 +1,186 @@
+.flex {
+    display: flex;
+  }
+  
+.grid {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	column-gap: 20px;
+}
+
+.sign_in_page {
+	display: flex;
+	justify-content: flex-start;
+	font-family: "Causten-Regular";
+}
+
+.sign_in_page_photo {
+	padding: 0px;
+	height: 956px;
+	width: 695px;
+	background-position: center;
+	background-size: cover;
+@media (max-width: 1265px) {
+	width: 560px;
+}
+
+@media (max-width: 1024px) {
+	width: 0px;
+}
+}
+
+.sign_in_page_content {
+position: relative;
+width: 570px;
+height: 428px;
+text-align: left;
+margin-left: 10%;
+top: 60px;
+
+@media (max-width: 1470px) {
+	max-width: 530px;
+}
+
+@media (max-width: 1322px) {
+	max-width: 360px;
+}
+
+@media (max-width: 1120px){
+	max-width: 260px;
+}
+
+@media (max-width: 506px) {
+	max-width: 300px;
+}
+
+}
+
+.input {
+	border: 1px solid #3c4242;
+	border-radius: 8px;
+	padding: 16px 20px;
+	width: 570px;
+	height: 62px;
+	margin-bottom: 10px;
+
+@media (max-width: 1470px) {
+	max-width: 530px;
+}
+
+@media (max-width: 1322px) {
+	max-width: 360px;
+}
+
+@media (max-width: 1120px) {
+	max-width: 260px;
+}
+
+@media (max-width: 506px){
+	max-width: 300px;
+}
+}
+
+p {
+	position: relative;
+	top: -12px;
+	margin-bottom: 0px;
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: 0.02em;
+	color: #3c4242;
+}
+
+h1 {
+	font-weight: 600;
+	font-size: 34px;
+	letter-spacing: 0.02em;
+	color: #333;
+	margin-top: 28px;
+	margin-bottom: 28px;
+
+@media (max-width: 506px) {
+	font-size: 25px;
+}
+}
+
+.password {
+	display: flex;
+	justify-content: space-between;
+}
+
+.hide_image {
+	display: flex;
+	align-items: center;
+
+}
+
+.eye_icon {
+	position: relative;
+	right: 15px;
+	top: -12px;
+}
+
+.hide {
+	position: relative;
+	top: -12px;
+}
+
+.forget {
+	position: relative;
+	top: 10px;
+	font-weight: 400;
+	font-size: 16px;
+	text-decoration: underline;
+	text-decoration-skip-ink: none;
+	text-align: right;
+	color: #3c4242;
+}
+
+.sign_in_block {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 30px;
+}
+
+.sign_in_button {
+
+	border-radius: 8px;
+	border-width: 0px;
+	padding: 16px 20px;
+	width: 167px;
+	height: 54px;
+	background: #8a33fd;
+
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+}
+
+.sign_up_button {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 10px;
+
+	font-weight: 400;
+	font-size: 16px;
+	color: #3c4242;
+}
+
+
+.sign_in_button:hover {
+	background-color: #000;
+	transition: 0.5s;
+}
+
+.sign_in_button:active {
+	background-color: #fff;
+	transition: 0.1s;
+	color: #000;
+}
+
+.Error {
+	color: red;
+}

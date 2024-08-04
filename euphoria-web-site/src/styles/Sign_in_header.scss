@@ -1,0 +1,164 @@
+@font-face {
+	font-family: "Causten-Regular";
+	src: local("Causten-Regular"),
+	 url('./fonts/Causten-Regular.woff2') format("truetype");
+	font-weight: normal;
+	}
+
+.flex {
+    display: flex;
+  }
+  
+.grid {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	column-gap: 20px;
+}
+
+.list-reset {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+
+.container {
+	margin: 0 auto;
+}
+
+.sign_in_header__container {
+	font-family: "Causten-Regular";
+	align-items: center;
+	justify-content: space-between;
+	
+  }
+  
+.nav {
+	align-items: center;
+}
+
+.nav__list {
+	align-items: center;
+	margin-left: 60px;
+	margin-right: 40px;
+	margin-top: 10px;
+	margin-bottom: 31px;
+
+	gap: 29px;
+}
+
+.euphoria_logo {
+	margin-left: 40px;
+	margin-top: 10px;
+	margin-bottom: 31px;
+	width: 93;
+	height: 45;
+	
+@media (max-width: 768px) {
+	display: none;
+}
+}
+
+
+.login_button {
+	border-radius: 8px;
+	border-width: 0px;
+	padding: 12px 48px;
+	width: 140px;
+	height: 46px;
+	background: #8a33fd;
+
+
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+
+@media (max-width: 650px){
+	width: 100px;
+	padding: 0px;
+	font-size: 16px;
+}
+
+}
+
+.login_button:hover {
+	background-color: #000;
+	transition: 0.5s;
+}
+
+.login_button:active {
+	background-color: #fff;
+	transition: 0.1s;
+	color: #000;
+}
+
+.signup_button {
+	border: 2px solid #3c4242;
+	border-radius: 8px;
+	padding: 12px 48px;
+	width: 156px;
+	height: 46px;
+	background-color: #fff;
+
+	white-space: nowrap;
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+	color: #8a33fd;
+
+
+@media (max-width: 650px){
+	width: 100px;
+	padding: 0px;
+	font-size: 16px;
+	margin-right: 21px;
+}
+}
+
+.signup_button:hover {
+	background-color: #8a33fd;
+	transition: 0.5s;
+	color: #fff;
+}
+
+.signup_button:active {
+	background-color: #000;
+	transition: 0.1s;
+	color: #fff;
+}
+
+
+.language_select {
+	width: 100px;
+	height: 30px;
+	border-color: #fff;
+	outline-color: #fff;
+
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 18px;
+	color: #333;
+
+@media (max-width: 768px) {
+	margin-left: 20px;
+	max-width: 100px;
+}
+
+@media (max-width: 506px){
+	margin-left: 20px;
+	width: 100px;
+
+}
+
+}
+
+.divider {
+margin: 0px;
+padding: 0px;
+display:block;
+width:100%;
+border-bottom: 1px solid #BEBCBD;
+}
+
+
